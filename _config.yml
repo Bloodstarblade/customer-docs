@@ -1,16 +1,20 @@
 title: Customer Documentation
 
-description: Comprehensive guides, API references, and release notes for our product.
+description: Comprehensive guides, API references, and release notes for your product.
 
 remote_theme: just-the-docs/just-the-docs
 
-url: https://bloodstarblade.github.io
-baseurl: /customer-docs
+url: "https://bloodstarblade.github.io"
+baseurl: "/customer-docs"
 
-# Enable search
 search_enabled: true
 
-# Aux links
+nav_sort: case_insensitive
+
+color_scheme: light
+
 aux_links:
   "GitHub":
     - "https://github.com/Bloodstarblade/customer-docs"
+
+footer_content: "&copy; Your Company 2026"
